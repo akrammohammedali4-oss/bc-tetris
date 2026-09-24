@@ -1,0 +1,27 @@
+{
+  "name": "bc-tetris",
+  "version": "1.0.0",
+  "description": "A classic Tetris game built with HTML5 Canvas and JavaScript, featuring persistent localStorage high score tracking and BC-themed styling.",
+  "main": "tetris.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "node --test tests/tetris.test.js && npx playwright test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akrammohammedali4-oss/bc-tetris.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/akrammohammedali4-oss/bc-tetris/issues"
+  },
+  "homepage": "https://github.com/akrammohammedali4-oss/bc-tetris#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.63.0"
+  }
+}
